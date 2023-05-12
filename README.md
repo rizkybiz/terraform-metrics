@@ -1,6 +1,12 @@
 # Terraform-Metrics
+
+# Install Instructions
+- Clone this repo: `git clone git@github.com:rizkybiz/terraform-metrics.git`
+- Install python3 requirements: `pip install -r requirements.txt`
+
+## Usage
 ```
-usage: tf-metrics.py [-h] -t TOKEN -o ORGANIZATION [-u URL]
+usage: python3 tf-metrics.py [-h] -t TOKEN -o ORGANIZATION [-u URL]
 
 Get the total number of runs of all Terraform Workspaces in the provider
 Organization
