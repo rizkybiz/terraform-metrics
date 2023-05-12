@@ -1,8 +1,13 @@
 # Terraform-Metrics
 
-# Install Instructions
+## Install Instructions
 - Clone this repo: `git clone git@github.com:rizkybiz/terraform-metrics.git`
 - Install python3 requirements: `pip install -r requirements.txt`
+
+## Limitations
+
+- Currently you have to input each unique organization
+- No concept of "average", just total runs. This can be accounted for by dividing by the amount of years TFC/TFE has been in use and then by 12 to get monthly average.
 
 ## Usage
 ```
